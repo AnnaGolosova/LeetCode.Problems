@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Playground", "LeetCode.Playground\LeetCode.Playground.csproj", "{6E1F1384-C6EE-4DEF-94C2-158A1A9A7F1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Playground", "LeetCode.Playground\LeetCode.Playground.csproj", "{6E1F1384-C6EE-4DEF-94C2-158A1A9A7F1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayProblems", "ArrayProblems\ArrayProblems.csproj", "{0274A55D-A588-4B1F-841E-92768A0AF630}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayProblems", "ArrayProblems\ArrayProblems.csproj", "{0274A55D-A588-4B1F-841E-92768A0AF630}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringsProblems", "StringProblems\StringsProblems\StringsProblems.csproj", "{8A91E672-6D85-4E19-B165-21520B3F9980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingProblems", "HashingProblems\HashingProblems.csproj", "{3EA49CC3-C869-429F-A7D3-6DF0F071206E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{0274A55D-A588-4B1F-841E-92768A0AF630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0274A55D-A588-4B1F-841E-92768A0AF630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0274A55D-A588-4B1F-841E-92768A0AF630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A91E672-6D85-4E19-B165-21520B3F9980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A91E672-6D85-4E19-B165-21520B3F9980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A91E672-6D85-4E19-B165-21520B3F9980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A91E672-6D85-4E19-B165-21520B3F9980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA49CC3-C869-429F-A7D3-6DF0F071206E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA49CC3-C869-429F-A7D3-6DF0F071206E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA49CC3-C869-429F-A7D3-6DF0F071206E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA49CC3-C869-429F-A7D3-6DF0F071206E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
